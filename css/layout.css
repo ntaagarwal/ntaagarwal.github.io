@@ -48,6 +48,7 @@ body {
 .portfolio-header-image {
   width: 100%;
   height: auto;
+  border-radius: 50%; /* Optional: makes image circular */
 }
 
 #portfolio-header-text-container {
@@ -57,24 +58,83 @@ body {
   flex-basis: 50%;
 }
 
-
-
-
 /* About Section */
 
 #about-section {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  flex-basis: 50%;
 }
 
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 16px;
+}
+
+/* Education Section */
+
+/* Education Section */
+
+#education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-basis: 50%;
+}
+
+.education-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-header {
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+.education-content {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  gap: 16px; /* Space between image and text */
+}
+
+.education-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  text-align: center; /* Center caption under the image */
+}
+
+.education-about-text {
+  flex: 1; /* Allows text to take up remaining space */
+}
+
+.image-caption {
+  margin-top: 8px; /* Space between image and caption */
+  font-size: 14px; /* Adjust size as needed */
+  color: #666; /* Adjust color to match your design */
+}
+
+.details {
+  display: block; /* Makes the text appear on a new line */
+  font-size: 14px; /* Smaller font size */
+  color: #888; /* Gray color */
 }
 
 
+/* #education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} */
 
 
 /* Project Section */

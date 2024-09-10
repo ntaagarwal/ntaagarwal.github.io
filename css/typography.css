@@ -47,3 +47,9 @@ body {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+
+.pronouns-text {
+  font-size: 14px;
+  color: #666; 
+  margin-top: 10px;
+}

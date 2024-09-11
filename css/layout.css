@@ -75,8 +75,6 @@ body {
 
 /* Education Section */
 
-/* Education Section */
-
 #education-section {
   display: flex;
   flex-direction: column;
@@ -91,20 +89,20 @@ body {
 }
 
 .education-header {
-  font-size: 24px; /* Adjust size as needed */
+  font-size: 24px; 
   font-weight: bold;
 }
 
 .education-content {
   display: flex;
-  align-items: center; /* Align items vertically center */
-  gap: 16px; /* Space between image and text */
+  align-items: center; 
+  gap: 16px; 
 }
 
 .education-image {
-  width: 150px; /* Adjust size as needed */
+  width: 150px;
   height: auto;
-  text-align: center; /* Center caption under the image */
+  text-align: center; 
 }
 
 .education-about-text {
